@@ -1,0 +1,83 @@
+# ergol.map
+keymaps 0-2,4-6,8-9,12
+include "linux-with-alt-and-altgr"
+include "compose.latin1"
+strings as usual
+
+keycode   1 = Escape           Escape
+keycode  14 = Delete           Delete
+keycode  15 = Tab
+	shift	keycode  15 = Meta_Tab
+keycode  28 = Return
+	alt	keycode  28 = Meta_Control_m
+keycode  29 = Control
+keycode  42 = Shift
+keycode  54 = Shift
+keycode  56 = Alt
+keycode  57 = space
+	control	keycode  57 = nul
+keycode  58 = Caps_Lock
+keycode  97 = Control
+
+keycode  41 = grave            asciitilde
+	control	keycode  41 = nul
+keycode   2 = one              currency         quotedbl
+keycode   3 = two              at               quotedbl          nul              nul
+keycode   4 = three            numbersign
+	control	keycode   4 = Escape
+keycode   5 = four             dollar           dollar           Control_backslash
+keycode   6 = five             percent
+	control	keycode   6 = Control_bracketright
+keycode   7 = six              asciicircum
+	control	keycode   7 = Control_asciicircum
+keycode   8 = seven            ampersand        braceleft        Control_underscore
+keycode   9 = eight            asterisk         bracketleft      Delete
+keycode  10 = nine             numbersign       bracketright
+keycode  11 = zero             at               braceright
+keycode  12 = slash            underscore       backslash        Control_underscore Control_underscore
+keycode  13 = equal            plus
+
+keycode  16 = q Q   asciicircum
+keycode  17 = c C   less
+keycode  18 = o O   greater
+keycode  19 = p P   dollar
+keycode  20 = w W   percent
+keycode  21 = j J   at
+keycode  22 = m M   ampersand
+keycode  23 = d D   asterisk
+keycode  24 = exclam    exclam  apostrophe
+keycode  25 = y Y   grave
+
+keycode  26 = bracketleft      braceleft
+	control	keycode  26 = Escape
+keycode  27 = bracketright     braceright       asciitilde       Control_bracketright
+keycode  43 = backslash        bar
+	control	keycode  43 = Control_backslash
+
+keycode  30 = a A   braceleft
+keycode  31 = s S   parenleft
+keycode  32 = e E   parenright
+keycode  33 = n N   braceright
+keycode  34 = f F   equal
+keycode  35 = l L   backslash
+keycode  36 = r R   plus
+keycode  37 = t T   minus
+keycode  38 = i I   slash
+keycode  39 = u U   quotedbl
+
+keycode  40 = apostrophe       quotedbl
+
+keycode  44 = z Z   asciitilde
+keycode  45 = x X   bracketleft
+keycode  46 = minus question    bracketright
+keycode  47 = v V   underscore
+keycode  48 = b B   numbersign
+keycode  49 = period    colon   bar
+keycode  50 = h H   exclam
+keycode  51 = g G   semicolon
+keycode  52 = comma semicolon   colon
+keycode  53 = k K   question
+	control keycode  53 = Control_underscore
+	control shift keycode  53 = Delete
+
+keycode  86 = less             greater          bar
