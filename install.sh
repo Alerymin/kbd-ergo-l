@@ -2,7 +2,7 @@
 
 cat << EOF
 #######################################
- Ergo-L layout xkb installer
+ Ergo-L layout kbd installer
  by Alerymin
  https://github.com/Alerymin/kbd-ergo-l
 ########################################
