@@ -1,4 +1,4 @@
-# Ergo-L for kbd
+# Ergo-L for kbd
 
 Ergo-L layout for linux console.
 
