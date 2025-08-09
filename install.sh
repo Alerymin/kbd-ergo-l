@@ -15,12 +15,12 @@ if [[ $(id -u) -ne 0 ]]; then
 fi
 
 echo "creating /usr/share/kbd/keymaps/ergol folder"
-mkdir -p /usr/share/kbd/keymaps/ergol
+mkdir -p /usr/share/kbd/keymaps/i386/ergol
 
 echo "Copying ergol.map.gz"
-cp ./ergol.map.gz /usr/share/kbd/keymaps/ergol
+cp ./ergol.map.gz /usr/share/kbd/keymaps/i386/ergol
 
 echo "Copying ergol-iso.map.gz"
-cp ./ergol-iso.map.gz /usr/share/kbd/keymaps/ergol
+cp ./ergol-iso.map.gz /usr/share/kbd/keymaps/i386/ergol
 
 echo "Done"
