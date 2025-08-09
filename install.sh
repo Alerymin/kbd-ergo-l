@@ -17,10 +17,7 @@ fi
 echo "creating /usr/share/kbd/keymaps/ergol folder"
 mkdir -p /usr/share/kbd/keymaps/i386/ergol
 
-echo "Copying ergol.map.gz"
-cp ./ergol.map.gz /usr/share/kbd/keymaps/i386/ergol
-
-echo "Copying ergol-iso.map.gz"
-cp ./ergol-iso.map.gz /usr/share/kbd/keymaps/i386/ergol
+echo "Copying files"
+cp -v ./*.map.gz /usr/share/kbd/keymaps/i386/ergol
 
 echo "Done"
